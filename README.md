@@ -1,1 +1,1 @@
-This is a JavaScript based GIF app for dog lovers. It allows the user to search for GIFs of their favorite dog breeds. The user can pause and start the GIFs. You can view the deployed app here: https://tomstone76.github.io/GifTastic/
+This is a HTML/CSS/JavaScript GIF app for dog lovers. It uses the GIPHY API to facilitate the process of searching for GIFs of favorite dog breeds. It populates the page with ten gifs, which the user can pause and start. You can view the deployed app here: https://tomstone76.github.io/GifTastic/
