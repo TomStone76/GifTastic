@@ -7,3 +7,5 @@ Technologies used:
 -CSS
 -Bootstrap
 -GIPHY API
+
+![Screenshot](../gifs.png)
