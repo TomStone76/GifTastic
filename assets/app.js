@@ -29,7 +29,7 @@ $("#buttons").on("click", "button.dog", function (event) {
     $("#gifs").empty();
     var dog = $(this).attr("data-name");
 
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + dog + "&api_key=0dl0F2oOvT9xTAC8YdheoP2KGLIceANQ"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + dog + "&api_key=0dl0F2oOvT9xTAC8YdheoP2KGLIceANQ";
 
     $.ajax({
         url: queryURL,
