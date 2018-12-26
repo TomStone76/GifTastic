@@ -8,4 +8,4 @@ Technologies used:
 -Bootstrap
 -GIPHY API
 
-![Screenshot](../gifs.png)
+![Screenshot](assets/gifs.png)
