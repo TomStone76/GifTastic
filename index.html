@@ -17,31 +17,37 @@
 
 <body>
 
-    <div class="container">
-        <div class="card" id="search-holder">
-            <div class="card-body" id="cb-1">
-                <h1><b>DogTastic: A GIF App for Dog Lovers</b></h1>
-                <form>
-                    <div class="form-group">
-                        <label></label>
-                        <input class="form-control" id="addDog" placeholder="Add a dog...">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="card" id="search-holder">
+                    <div class="card-body" id="cb-1">
+                        <h1><b>DogTastic: A GIF App for Dog Lovers</b></h1>
+                        <form>
+                            <div class="form-group">
+                                <label></label>
+                                <input class="form-control" id="addDog" placeholder="Add a dog...">
+                            </div>
+                            <button type="submit" id="add-dog" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
-                    <button type="submit" id="add-dog" class="btn btn-primary">Submit</button>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <div class="container" id="container=2">
-        <div id="buttons"></div>
-    </div>
-    <div class="card" id="images-holder">
-        <div class="card-body" id="cb-2">
-            <span id="gifs"></span>
+        <br>
+        <div class="container" id="container=2">
+            <div class="row">
+                <div id="buttons"></div>
+            </div>
         </div>
-    </div>
+        <div class="card" id="images-holder">
+            <div class="card-body" id="cb-2">
+                <span id="gifs"></span>
+            </div>
+        </div>
 
-    <script src="assets/app.js"></script>
+
+        <script src="assets/app.js"></script>
 </body>
 
 </html>
